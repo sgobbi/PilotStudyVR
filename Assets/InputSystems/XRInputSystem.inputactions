@@ -1,0 +1,34 @@
+{
+    "name": "XRInputSystem",
+    "maps": [
+        {
+            "name": "XRController",
+            "id": "c537f053-017c-469e-90d2-48a34de4ec1a",
+            "actions": [
+                {
+                    "name": "ToggleHandMenu",
+                    "type": "Button",
+                    "id": "d0651bba-9a07-4883-808f-ecd7d5ad0a7f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "104bd8db-cf40-4968-8c71-30cf438599d3",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleHandMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

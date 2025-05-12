@@ -5,20 +5,35 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    GraphicsSettingsInspector_UserSettings:
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b07a68ffab74f9ee2a3a30300cea1a11320d0beb1a0c25f7060f494b4cdf1b18f3045e38cb5ad8
+      flags: 0
     RecentlyUsedSceneGuid-0:
-      value: 545055025750080e590a087b15700e444315402f7c7b74622c7d4d61b1b8646b
+      value: 5604500706560a0b540f5f20467a094441151a2b2e7972652f7c4932b1e1366b
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5604500706560a0b540f5f20467a094441151a2b2e7972652f7c4932b1e1366b
+      value: 0100515e0102080b0c0a597a44770a441715412e7e2d24617c781863e1b8666b
       flags: 0
     RecentlyUsedSceneGuid-2:
       value: 57540d0000535b0d08580d26127b0744414e192e7d2a7f687e7d1c60b0e46d6c
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 0100515e0102080b0c0a597a44770a441715412e7e2d24617c781863e1b8666b
+      value: 545055025750080e590a087b15700e444315402f7c7b74622c7d4d61b1b8646b
       flags: 0
     RecentlyUsedSceneGuid-4:
+      value: 575757535205595959585f7b4225094441164e78787f7735797f4b32b2b66360
+      flags: 0
+    RecentlyUsedSceneGuid-5:
       value: 5a0903545c035d5d0c5c0f704477074447164b7c287d7634742d1b31b6b6633b
+      flags: 0
+    UnityEditor.ShaderGraph.Blackboard:
+      value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4baf5e435d8715fa32c70d15d11612dacc11fee5d3c5d1fe9ab1b7968e93e2ffcbc3e7e2f0b3ffe0e8b0be9af8ffaeffff8e85dd8390e3949c8899daa7
+      flags: 0
+    UnityEditor.ShaderGraph.FloatingWindowsLayout2:
+      value: 181344140043005e1a220d3b1f364b524c0c5a27130c293326201334cee5322ca0bd22fbf23f737e343dcb3307350831f53e061bb4511e19040bb14c1cc0261603d111c61bc4301acd0a19da8f4781ad859a96e7e7c3e8cad7c5affce0f1e2d7f3f7b6febeeaa692fae1aefdedcff8f7c8d0b28696dd8bdff8888381e69d829f9bcfc78c8bd58f9580d4f9d4fac4f0f0c2f3f5c6ccf084b680
+      flags: 0
+    UnityEditor.ShaderGraph.InspectorWindow:
+      value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a560393d3511ea7046333e09f7181d02f50a06241708ee0b05bd4a435f9548954a984c449a4d4a979a4f87b6838481a69ae6d8f0d1cda9e8fbfefaf9f9dea3fdb9ade882f0f7b0e1e380cafbf2c3adc18e9cd285a2908b80ee839c8395949c9483d58f8e97dff0ddf2c1f5f6c3f6f4c5c4f7ceb680
       flags: 0
     lightmappingBakingProfile:
       value: 51

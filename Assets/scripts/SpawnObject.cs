@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+
 public class ObjectSpawner : MonoBehaviour
 {
     public GameObject[] prefabObjects; // Array to hold the prefabs
@@ -62,7 +64,7 @@ public class ObjectSpawner : MonoBehaviour
             Vector3 cameraPosition = localPlayerCamera.transform.position;
             Vector3 intermediate = cameraForward * localSpawnDistance; 
             Vector3 spawnPosition = cameraPosition + cameraForward * localSpawnDistance;
-            spawnPosition.y = spawnHeight; 
+            spawnPosition.y = spawnHeight ; 
             Debug.Log("spawn distance: " + spawnDistance + "CameraForward: " + cameraForward  + " intermediate calcul: " + intermediate); 
             Debug.Log("CameraForward: " + cameraForward + "  cameraPosition: " + cameraPosition + "  spawnPosition: " + spawnPosition); 
             Vector3 objectRotation = localObjectRotation[index];
@@ -72,8 +74,24 @@ public class ObjectSpawner : MonoBehaviour
             Renderer renderer = spawnedObject.GetComponentInChildren<Renderer>();
             Collider collider = spawnedObject.GetComponentInChildren<Collider>();
             
+            if (!spawnedObject.TryGetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>(out _))
+            {
+                spawnedObject.AddComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+            }
 
-            Vector3 objectSize = Vector3.zero;
+            if (!spawnedObject.TryGetComponent<Rigidbody>(out _))
+            {
+                Rigidbody rb = spawnedObject.AddComponent<Rigidbody>();
+                rb.useGravity = true;
+            }
+
+            if (!spawnedObject.TryGetComponent<Collider>(out _))
+            {
+                spawnedObject.AddComponent<BoxCollider>(); // Or whatever makes sense for the shape
+            }
+
+
+            /* Vector3 objectSize = Vector3.zero;
             if (renderer != null)
             {
                 // Get the size of the object
@@ -104,7 +122,7 @@ public class ObjectSpawner : MonoBehaviour
             else
             {
                 Debug.LogWarning("Renderer component not found on the prefab.");
-            }
+            } */
           
         }
         else

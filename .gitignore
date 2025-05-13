@@ -14,3 +14,9 @@
 *.suo
 *.tmp
 *.user
+
+# Ignore large texture files
+Assets/Materials/Textures/yellow paving/TactilePaving003_8K-JPG_NormalGL.jpg
+Assets/Materials/Textures/yellow paving/TactilePaving003_8K-JPG_NormalDX.jpg
+Assets/Materials/Textures/Concrete044D_8K-JPG/Concrete044D_8K-JPG_NormalDX.jpg
+Assets/Materials/Textures/Concrete044D_8K-JPG/Concrete044D_8K-JPG_NormalGL.jpg
